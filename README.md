@@ -5,6 +5,7 @@
   <img src="assets/erdDiagram.png" alt="header"/>
 </p>
 ## Create Tables
+
 ### Create Person Table SQL Code 
 
 ```sql
