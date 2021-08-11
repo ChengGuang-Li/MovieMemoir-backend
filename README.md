@@ -5,6 +5,10 @@
   <img src="assets/erdDiagram.png" alt="header"/>
 </p>
 
+## Restful API methods 
+
+* findCinemaByCinemaName 
+
 
 ## Create Tables
 
