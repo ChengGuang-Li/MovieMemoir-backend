@@ -5,9 +5,122 @@
   <img src="assets/erdDiagram.png" alt="header"/>
 </p>
 
-## Restful API methods 
+## Rest  methods 
 
-* findCinemaByCinemaName 
+<table width="100%"> 
+ <tr>
+   <td>
+     findCinemaByCinemaName(String cName) 
+   </td>
+   <td>
+     findCinemaByCinemaLocation(Integer location)
+   </td>
+ <tr/>
+<tr>
+   <td>
+     findPersonByPersonFirstName(String firstName) 
+   </td>
+   <td>
+     findPersonByPersonSurname(String surname)
+   </td>
+<tr/>  
+<tr>
+   <td>
+     findPersonByPersonGender(String gender) 
+   </td>
+   <td>
+     findPersonByPersonDayOfBirth(String dob)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findPersonByPersonStreetNumber(Integer sNumber) 
+   </td>
+   <td>
+     findPersonByPersonStreetName(String sName)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findPersonByPersonStateOfResidence(String stateOR) 
+   </td>
+   <td>
+     findPersonByPersonPostcode(Integer postcode)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findCredentialByCredentialUsername(String username)
+   </td>
+   <td>
+     findCredentialByCredentialPassword(String password)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findCredentialByCredentialSignUpDate(String signup)
+   </td>
+   <td>
+    findMovieMemoirByMovieName (String mName)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findMovieMemoirByMovieReleaseDate (String releaseDate)
+   </td>
+   <td>
+    findMovieMemoirByMovieWatchDate (String wcDate)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findMovieMemoirByComment (String comment)
+   </td>
+   <td>
+    findMovieMemoirByRScore (Double rScore)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findPersonByPostcodeAndStateAndGender( Integer postcode, String stateOR, String gender)
+   </td>
+   <td>
+    findMovieMemoirByMovieNameAndCinemaName (String mName,String cName)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findPersonByPostcodeAndStateAndGender( Integer postcode, String stateOR, String gender)
+   </td>
+   <td>
+    findMovieMemoirByMovieNameAndLocation (String mName,Integer location)
+   </td>
+<tr/>
+<tr>
+   <td>
+     findNumMoviesPerPostcodeByP_IdAndStartDateAndEndDate(Integer pId,java.sql.Date startDate,java.sql.Date endDate)
+   </td>
+   <td>
+    findNumMoviesPerMonthByP_IdAndYear(Integer pId,Integer year)
+   </td>
+<tr/>
+<tr>
+   <td>
+    findHighestRatingMovieNameAndScoreAndRlDateByP_Id(Integer p_Id)
+   </td>
+   <td>
+    findMovieNameAndRLYearSameAsWTYearByP_Id(Integer p_Id)
+   </td>
+<tr/>
+<tr>
+   <td>
+    findMovieNameAndRLYearByP_Id(Integer p_Id)
+   </td>
+   <td>
+    findTop5MovieNameAndRatingScoreAndRLDateByP_Id(Integer p_Id)
+   </td>
+<tr/>
+</table>
 
 
 ## Create Tables
