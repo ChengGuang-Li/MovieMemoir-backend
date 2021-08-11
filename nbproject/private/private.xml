@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/NetBeansDocuments/Movie/src/java/movie/Credential.java</file>
+            <file>file:/D:/NetBeansDocuments/Movie/src/java/movie/service/ApplicationConfig.java</file>
+            <file>file:/D:/NetBeansDocuments/Movie/src/java/movie/service/Cinemal.java</file>
+            <file>file:/D:/NetBeansDocuments/Movie/src/java/movie/Cinema.java</file>
+            <file>file:/D:/NetBeansDocuments/Movie/src/java/entities/MovieNumberByPostcode.java</file>
+            <file>file:/D:/NetBeansDocuments/Movie/src/java/movie/service/CredentialFacadeREST.java</file>
+            <file>file:/D:/NetBeansDocuments/Movie/src/java/movie/service/CinemaFacadeREST.java</file>
+        </group>
     </open-files>
 </project-private>
